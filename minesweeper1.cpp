@@ -32,7 +32,7 @@ unsigned int RandNum(unsigned int& seed, unsigned int a, unsigned int c, unsigne
 unsigned int seed = 1234; // Initial seed value
 unsigned int a = 22695477; // Multiplier
 unsigned int c = 1; // Increment
-unsigned int m = 42949; // Modulus (2^32)
+unsigned int m = 42949; // Modulus 
 
 //функция, която да пълни клетките спрямо броя им, подаден от потребителя
 void fillBoard (int N, int& numberMines) {
