@@ -51,7 +51,7 @@ void fillBoard (int N, int& numberMines) {
 
         int y = (randomNum % N) ;
 
-        if(board[x][y] != N) { //пазя мините като N, тоест, ако на това място вече няма мина, слагам
+        if(board[x][y] != N) { //пазя мините като N, тоест, ако на това място няма мина, слагам
             board[x][y] = N;
         }
     }
