@@ -11,7 +11,11 @@ The primary objective of Minesweeper is to reveal all cells in the matrix that a
 Features
 
 Grid Representation: The game is played on a matrix grid.
+
 Cell Interaction: Players can uncover cells to reveal numbers or mines, as well as mark or unmark potential mines.
+
 Mines: Hidden mines pose a threat, and revealing one ends the game.
+
 Number Indicators: Numbers indicate the count of mines in adjacent cells.
+
 Winning: Successfully uncovering all non-mine cells leads to victory.
